@@ -69,7 +69,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     border-radius: 5rem;
 }
 
-.notification-form__main-button{
+.notification-form__button{
     width: 100%;
     display: block;
     background-color: var(--primary-blue);
@@ -81,7 +81,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     font-size: 1.8rem;
 }
 
-#notification-form__button:hover{
+.notification-form__button:hover{
     background-color: var(--secondary-pale-blue);
 }
 
@@ -97,43 +97,4 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
 }
 
 
-@media (min-width: 751px){
-
-    .main__text{
-        font-size: 5rem;
-    }
-
-    .notification-form__wrapper{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 5rem;
-    }
-
-    #notificaton-form__email{
-        width: 95%;
-        margin: 0 2rem 0 0;
-    }
-    
-    .notification-form__main-button{
-        width: 45%;
-        margin-bottom: 0;
-        align-self: flex-start;
-    }
-
-    .notification-form__validation-area{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    #notification-form__error-message{
-        display: none;
-        margin-left: 2rem;
-        font-size: 1.4rem;
-    }
-}
 

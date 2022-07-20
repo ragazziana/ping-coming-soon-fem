@@ -2,7 +2,8 @@
 @use 'configurations/reset';
 @use 'configurations/root';
 
-
-@use 'layout/desktop-version';
-@use 'layout/main-content';
+@use 'layout/main';
 @use 'layout/footer';
+
+@use 'responsivity/desktop';
+
