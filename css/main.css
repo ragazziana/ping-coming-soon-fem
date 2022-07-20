@@ -21,6 +21,7 @@ body, html {
   --light-red: hsl(354, 100%, 66%);
   --neutral-gray: hsl(0, 0%, 59%);
   --neutral-very-dark-blue: hsl(209, 33%, 12%);
+  --red: hsl(0, 96%, 45%);
   font-size: 62.5%; /* 1rem = 10px */
   --ff-main: "Libre Franklin", sans-serif;
   --fs-main: 1.6rem;
@@ -96,7 +97,7 @@ input[type=email]#notificaton-form__email::-webkit-input-placeholder {
 }
 
 #notificaton-form__email:focus {
-  outline: 2px solid var(--secondary-pale-blue);
+  outline: 1px solid var(--secondary-pale-blue);
   border-radius: 5rem;
 }
 
@@ -117,8 +118,9 @@ input[type=email]#notificaton-form__email::-webkit-input-placeholder {
 }
 
 #notification-form__error-message {
-  color: red;
+  color: var(--red);
   display: block;
+  font-size: 1.4rem;
 }
 
 .notification-form__image {
@@ -143,7 +145,7 @@ input[type=email]#notificaton-form__email::-webkit-input-placeholder {
     margin: 0 2rem 0 0;
   }
   #notification-form__button {
-    width: 30%;
+    width: 45%;
     margin-bottom: 0;
     align-self: flex-start;
   }
@@ -156,7 +158,7 @@ input[type=email]#notificaton-form__email::-webkit-input-placeholder {
   #notification-form__error-message {
     display: none;
     margin-left: 2rem;
-    margin-top: 0.5rem;
+    font-size: 1.4rem;
   }
 }
 .fa-facebook-f,

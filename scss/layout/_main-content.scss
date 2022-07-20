@@ -65,7 +65,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
   }
 
 #notificaton-form__email:focus{
-    outline: 2px solid var(--secondary-pale-blue);
+    outline: 1px solid var(--secondary-pale-blue);
     border-radius: 5rem;
 }
 
@@ -86,8 +86,9 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
 }
 
 #notification-form__error-message{
-    color: red;
+    color: var(--red);
     display: block;
+    font-size: 1.4rem;
 }
 
 .notification-form__image{
@@ -116,7 +117,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     }
     
     #notification-form__button{
-        width: 30%;
+        width: 45%;
         margin-bottom: 0;
         align-self: flex-start;
     }
@@ -131,7 +132,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     #notification-form__error-message{
         display: none;
         margin-left: 2rem;
-        margin-top: .5rem;
+        font-size: 1.4rem;
     }
     
 }

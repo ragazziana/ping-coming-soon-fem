@@ -23,7 +23,7 @@
          <form id="notification-form" action="">
             <section class="notification-form__wrapper">
                <div class="notification-form__validation-area">
-                  <input type="email" value=""  id="notificaton-form__email" name="notification-email" placeholder="Your email adress...">
+                  <input onblur="clearErrorMessage()" type="email" value=""  id="notificaton-form__email" name="notification-email" placeholder="Your email adress...">
                   <span id="notification-form__error-message"></span>
                </div>
                <button type="submit" id="notification-form__button">Notify Me</button>
