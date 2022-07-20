@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="stylesheet" href="css/main.css">
+      <script src="https://kit.fontawesome.com/43efee9e60.js" crossorigin="anonymous"></script>
+      <title>Frontend Mentor | Ping coming soon page</title>
+   </head>
+   <body>
+
+      <main>
+         <!-- Logo and description section -->
+         <img class="main__image" src="images/logo.svg" alt="">
+         <h1 class="main__text" >We are launching <strong class="main__text-strong" >soon!</strong></h1>
+         <p class="main__description" >Subscribe and get notified</p>
+         
+         <!-- Form and validation section -->
+         <form id="notification-form" action="">
+            <section class="notification-form__wrapper">
+               <div class="notification-form__validation-area">
+                  <input type="email" value=""  id="notificaton-form__email" name="notification-email" placeholder="Your email adress...">
+                  <span id="notification-form__error-message"></span>
+               </div>
+               <button type="submit" id="notification-form__button">Notify Me</button>
+            </section>
+
+         <!-- Main image -->
+                  <img class="notification-form__image" src="/images/illustration-dashboard.png" alt="image with charts">
+         </form>
+      </main>
+
+         <!-- Copyright and social media links section -->
+      <footer>
+         <section class="footer__socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+         </section>
+         <p class="footer__copyright-text"> &copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+      
+      <script src="/js/main.js"></script>
+   </body>
+</html>

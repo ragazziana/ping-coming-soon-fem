@@ -1,0 +1,38 @@
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    border-radius: 50%;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover{
+    color: var(--white);
+    background-color: var(--primary-blue);
+}
+
+.fa-facebook-f{
+    margin-right: 1rem;
+}
+
+.fa-twitter{
+    margin-right: 1rem;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+.footer__copyright-text{
+    font-size: 1.2rem;
+    color: var(--neutral-gray);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

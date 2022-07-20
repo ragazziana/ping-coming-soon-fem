@@ -1,0 +1,28 @@
+:root{
+    
+    // Colors
+
+--white: hsl(0, 0%, 100%);
+--black: hsl(0, 0%, 0%);
+--primary-blue: hsl(223, 87%, 63%);
+--secondary-pale-blue: hsl(223, 100%, 88%);
+--light-red: hsl(354, 100%, 66%);
+--neutral-gray: hsl(0, 0%, 59%);
+--neutral-very-dark-blue: hsl(209, 33%, 12%);
+
+    // Fonts
+
+    font-size: 62.5%; /* 1rem = 10px */
+    
+    --ff-main: 'Libre Franklin', sans-serif;
+
+    // Font Sizes
+
+    --fs-main: 1.6rem;
+
+    // Font Weights
+
+    --fw-light: 300;
+    --fw-medium: 500;
+    --fw-bold: 700;
+}

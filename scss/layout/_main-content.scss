@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 3.2rem;
+}
+
+.main__image{
+    max-width: 10.9rem;
+    margin-top: 8.5rem;
+    margin-bottom: 6.9rem;
+}
+
+.main__text{
+    color: var(--neutral-gray);
+    font-size: 2.8rem;
+    font-weight: var(--fw-light);
+    margin-bottom: 2rem;
+}
+
+.main__text-strong{
+    color: var(--neutral-very-dark-blue);
+}
+
+.main__description{
+    color: var(--neutral-very-dark-blue);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.notification-form__wrapper{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+#notificaton-form__email{
+    width: 100%;
+    display: block;
+    border: 1px solid var(--neutral-gray);
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--secondary-pale-blue);
+    padding: 1.5rem 0;
+}
+
+#notificaton-form__email[type=email]{
+    padding-left: 2rem;
+    font-family: var(--ff-main);
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    color: var(--neutral-very-dark-blue);
+}
+
+input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
+    color: var(--secondary-pale-blue);
+  }
+
+#notificaton-form__email:focus{
+    outline: 2px solid var(--secondary-pale-blue);
+    border-radius: 5rem;
+}
+
+#notification-form__button{
+    width: 100%;
+    display: block;
+    background-color: var(--primary-blue);
+    border: none;
+    border-radius: 5rem;
+    padding: 1.5rem 0;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
+#notification-form__button:hover{
+    background-color: var(--secondary-pale-blue);
+}
+
+#notification-form__error-message{
+    color: red;
+    display: block;
+}
+
+.notification-form__image{
+    width: 100%;
+    max-width: 64.8rem;
+}
+
+@media (min-width: 751px){
+
+    .main__text{
+        font-size: 5rem;
+    }
+
+    .notification-form__wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+
+    #notificaton-form__email{
+        width: 95%;
+        margin: 0 2rem 0 0;
+    }
+    
+    #notification-form__button{
+        width: 30%;
+        margin-bottom: 0;
+        align-self: flex-start;
+    }
+
+    .notification-form__validation-area{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #notification-form__error-message{
+        display: none;
+        margin-left: 2rem;
+        margin-top: .5rem;
+    }
+    
+}
