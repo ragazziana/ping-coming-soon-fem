@@ -92,6 +92,12 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     font-size: 1.4rem;
 }
 
+#notification-form__success-message{
+    color: green;
+    display: block;
+    font-size: 1.4rem;
+}
+
 .notification-form__image{
     width: 100%;
     max-width: 64.8rem;

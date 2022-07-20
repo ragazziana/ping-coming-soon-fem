@@ -124,6 +124,12 @@ input[type=email]#notificaton-form__email::-webkit-input-placeholder {
   font-size: 1.4rem;
 }
 
+#notification-form__success-message {
+  color: green;
+  display: block;
+  font-size: 1.4rem;
+}
+
 .notification-form__image {
   width: 100%;
   max-width: 64.8rem;
@@ -197,6 +203,9 @@ footer {
   #notification-form__error-message {
     display: none;
     margin-left: 2rem;
-    font-size: 1.4rem;
+  }
+  #notification-form__success-message {
+    display: none;
+    margin-left: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */

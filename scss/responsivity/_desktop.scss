@@ -33,7 +33,11 @@
     #notification-form__error-message{
         display: none;
         margin-left: 2rem;
-        font-size: 1.4rem;
+    }
+
+    #notification-form__success-message{
+        display: none;
+        margin-left: 2rem;
     }
 }
 
