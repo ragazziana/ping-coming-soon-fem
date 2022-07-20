@@ -69,7 +69,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     border-radius: 5rem;
 }
 
-#notification-form__button{
+.notification-form__main-button{
     width: 100%;
     display: block;
     background-color: var(--primary-blue);
@@ -96,6 +96,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
     max-width: 64.8rem;
 }
 
+
 @media (min-width: 751px){
 
     .main__text{
@@ -116,7 +117,7 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
         margin: 0 2rem 0 0;
     }
     
-    #notification-form__button{
+    .notification-form__main-button{
         width: 45%;
         margin-bottom: 0;
         align-self: flex-start;
@@ -134,5 +135,5 @@ input[type="email"]#notificaton-form__email::-webkit-input-placeholder {
         margin-left: 2rem;
         font-size: 1.4rem;
     }
-    
 }
+
