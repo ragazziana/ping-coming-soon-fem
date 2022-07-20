@@ -9,7 +9,7 @@ button.addEventListener("click", (event) => {
     if (email.value == "") {
         error.style.display = "block";
         error.style.margin = "1rem 0 1rem 2rem";
-        error.innerHTML = "This field is required.";
+        error.innerHTML = " This field is required.";
         email.style.outline = "1px solid red";
         email.style.border = "none";
     } else if (!mailRegex.test(email.value)) {
